@@ -8,13 +8,21 @@
   color: white;
   border-radius: 2px;
   padding: 10px 55px;
+  position: relative;
 }
-.hover a {
-  display: flex;
+.hover  {
+  display: none;
   flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
   text-decoration: none;
   background-color: antiquewhite;
   width: 175px;
   padding-bottom: 10px;
 }
+.links:hover .hover {
+    display: flex;
+    position: absolute;
+}
+
 
